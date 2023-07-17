@@ -1,0 +1,41 @@
+body {
+        background-color: black;
+        margin:0;
+}
+div.container{
+        width: 600px;
+        margin: auto;
+        margin-top: 50px;
+    }
+div.post{
+        background-color:white;
+    }
+div.post img{
+        width: 100%;
+        height: 350px;
+        object-fit: cover;
+}
+h2 {
+         margin:0;
+}
+h3 {
+         margin:0;
+}
+.post .post-header {
+        display: flex; 
+        width: 100%;  
+        padding:1px;
+   }
+.post .post-header div:last-child {
+    margin-left: 450px;
+ /* border:1px solid red; Linea para indetificar la seleccion*/ 
+}
+.post .reactions {
+    display: flex; 
+    width: 100%;  
+    padding:1px;
+}
+.post .reactions div:last-child {
+    margin-left: 460px;
+   /*  border:1px solid red; */ 
+}
